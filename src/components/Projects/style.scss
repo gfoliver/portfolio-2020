@@ -1,0 +1,36 @@
+.Projects {
+    min-height: 100vh;
+    padding: 80px 0;
+    position: relative;
+
+    .leaves {
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .SliderWrapper {
+        margin: 0 -60px;
+    }
+
+    @media only screen and (max-width: 1400px) {
+        padding: 50px 0;
+
+        .SliderWrapper {
+            margin-bottom: 80px;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        min-height: auto;
+        
+        .SliderWrapper {
+            margin: 30px 0 0;
+        }
+    }
+}

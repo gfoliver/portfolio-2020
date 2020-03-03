@@ -1,0 +1,77 @@
+@import '../../utils/globals.scss';
+
+.Project {
+    border-radius: 40px;
+    padding: 30px 0;
+    margin: 0 60px;
+    position: relative;
+
+    .Content {
+        background-color: #fff;
+        border-radius: 40px;
+        padding: 50px 20px;
+        transition: all .5s ease;
+        color: #000;
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            margin-bottom: 30px;
+        }
+
+        .github {
+            width: 100%;
+            background-color: $color-background;
+            color: #fff;
+            border-radius: 20px;
+            font-weight: bold;
+            padding: 15px;
+        }
+    }
+
+    &:hover {
+        .Content {
+            transform: translateY(30px);
+        }
+        
+        .PreviewButton {
+            opacity: 1;
+            animation: blink .3s ease .3s;
+        }
+    }
+
+    .PreviewButton {
+        position: absolute;
+        left: 50%;
+        top: 15px;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: all .5s ease;
+        padding: 0;
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .Content {
+            padding: 30px 20px;
+        }
+    }
+
+    @media only screen and (max-width: 1400px) {
+        margin: 0 15px;
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        transform: translateX(-50%) scaleY(1);
+    }
+
+    50% {
+        transform: translateX(-50%) scaleY(0);
+    }
+}

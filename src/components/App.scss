@@ -1,0 +1,63 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap');
+
+// Vendor
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+@import '../utils/globals.scss';
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: $color-background;
+    color: #fff;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    transition: all .5s ease;
+    opacity: .15;
+    padding: 0;
+
+    &:hover {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+    &:focus,
+    &:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        border: solid 5px #fff;
+        border-right: none;
+        border-bottom: none;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+}

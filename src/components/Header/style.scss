@@ -1,0 +1,43 @@
+@import '../../utils/globals.scss';
+
+.Header {
+    padding: 25px 0;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    .Logo {
+        max-width: 190px;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    nav {
+        .nav-item {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+            position: relative;
+            transition: all .5s ease;
+
+            &:hover {
+                transform: scale(1.1);
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+@keyframes navPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
