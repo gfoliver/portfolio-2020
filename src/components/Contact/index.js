@@ -57,7 +57,7 @@ export default function Contact() {
                         <Fade right>
                             <div className="FormWrapper">
                                 <h4>Send Me a Message</h4>
-                                <form onSubmitCapture>
+                                <form onSubmitCapture={e => e.preventDefault()}>
                                     <div className="form-group">
                                         <label htmlFor="contact-form-name">Name</label>
                                         <input  

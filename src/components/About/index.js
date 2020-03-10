@@ -33,12 +33,13 @@ export default function About() {
                                     <div className="blue">Technologies<span className="white">: [</span></div>
                                 </Fade>
                                     <Fade up>
-                                        <div className="yellow">    'HTML5, CSS3, Scss'<br /></div>
-                                        <div className="yellow">    'JavaScript (ES6), jQuery'<br /></div>
-                                        <div className="yellow">    'Wordpress, VueJS, ReactJS'<br /></div>
-                                        <div className="yellow">    'NodeJS (Express)'<br /></div>
-                                        <div className="yellow">    'MySQL, MongoDB'<br /></div>
-                                        <div className="yellow">    'Git, npm, yarn'<br /></div>
+                                        <div className="yellow">    'HTML5, CSS3, Scss'</div><span>,</span><br />
+                                        <div className="yellow">    'JavaScript (ES6), jQuery'</div><span>,</span><br />
+                                        <div className="yellow">    'VueJS, ReactJS'</div><span>,</span><br />
+                                        <div className="yellow">    'NodeJS, Express'</div><span>,</span><br />
+                                        <div className="yellow">    'PHP, Wordpress'</div><span>,</span><br />
+                                        <div className="yellow">    'MySQL, MongoDB'</div><span>,</span><br />
+                                        <div className="yellow">    'Git, npm, yarn'</div><br />
                                     </Fade>
                                 <Fade up>
                                     <div className="white">]</div>
