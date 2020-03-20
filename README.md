@@ -1,4 +1,4 @@
-![Portofolio](https://repository-images.githubusercontent.com/244631052/a3a52780-6a27-11ea-882b-f341355e9a2b)
+![Portofolio](https://repository-images.githubusercontent.com/244631052/cd128300-6a28-11ea-8cfc-a94e3bff8787)
 
 # My Personal Portfolio
 
