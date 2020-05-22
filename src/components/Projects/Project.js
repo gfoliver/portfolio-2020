@@ -15,6 +15,7 @@ export default function Project({title, description, github_url, flag}) {
                     href={'https://github.com/gfoliver/' + github_url} 
                     className="btn github"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     Check it on Github
                 </a>

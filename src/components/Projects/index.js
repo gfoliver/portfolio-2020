@@ -86,7 +86,7 @@ export default function Projects() {
                     </Slider>
                 </div>
             </div>
-            <img src={leaves} className="leaves" />
+            <img src={leaves} className="leaves" alt="leaves" />
             <MouseIcon link="contact" />
         </div>
     )

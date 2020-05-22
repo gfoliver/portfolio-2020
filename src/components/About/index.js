@@ -54,7 +54,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <img src={leaf} className="leaf" />
+            <img src={leaf} className="leaf" alt="leaf" />
             <MouseIcon link="projects" />
         </div>
     )
