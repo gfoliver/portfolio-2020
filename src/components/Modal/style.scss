@@ -121,6 +121,50 @@
                     font-family: 'Fira Code';
                 }
             }
+        
+            @media only screen and (max-width: 992px) {
+                width: 100%;
+                max-height: none;
+                height: 100vh;
+                border-radius: 0;
+    
+                header {
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                }
+
+                .readme {
+                    max-width: 100%;
+                }
+            }
+
+            @media only screen and (max-width: 480px) {
+                padding: 30px;
+
+                header {
+                    margin: -30px -30px 30px -30px;
+                    width: calc(100% + 60px);
+
+                    .text-wrapper {
+                        display: block;
+                        margin-bottom: 0;
+
+                        .github_link {
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .readme {
+                    h1 {
+                        font-size: 26px;
+                    }
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+            }
         }
     }
 }
